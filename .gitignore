@@ -1,5 +1,52 @@
-*.un*
-*.swp
-*.pass
+# ---- Compiled binaries / build artifacts ----
+# (.in/.out test fixtures are committed on purpose; only the a.out binary is ignored)
 a.out
-Diego1149_Codes
+*.exe
+*.o
+*.obj
+*.elf
+*.gch
+*.pch
+*.so
+*.dylib
+*.dll
+*.a
+*.lib
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+*.egg-info/
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# ---- Editor / IDE ----
+*.swp
+*.swo
+*.un~
+*~
+.vscode/
+.idea/
+*.sublime-workspace
+
+# ---- OS junk ----
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+desktop.ini
+
+# ---- Personal / sensitive ----
+*.pass
+.env
+.env.*
+*.pem
+*.key
+id_rsa*
+Diego1149_Codes/
